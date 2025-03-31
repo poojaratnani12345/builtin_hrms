@@ -1,0 +1,469 @@
+[
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "pooja.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "pooja.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "pooja",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "pooja",
+  "full_name": "pooja",
+  "gender": null,
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [],
+  "middle_name": null,
+  "mobile_no": "",
+  "modified": "2025-03-04 10:33:06.796104",
+  "name": "pooja",
+  "phone": "",
+  "phone_nos": [],
+  "pulled_from_google_contacts": 0,
+  "salutation": null,
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "pooja.sarvadhi@gmail.com"
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "ratnanipooja000@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "ratnanipooja000@gmail.com",
+    "is_primary": 1,
+    "parent": "pooja-1",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "pooja",
+  "full_name": "pooja",
+  "gender": null,
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [],
+  "middle_name": null,
+  "mobile_no": "",
+  "modified": "2025-03-19 10:53:56.892350",
+  "name": "pooja-1",
+  "phone": "",
+  "phone_nos": [],
+  "pulled_from_google_contacts": 0,
+  "salutation": null,
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "ratnanipooja000@gmail.com"
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "pooja.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "pooja.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "cotact",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "cotact",
+  "full_name": "cotact",
+  "gender": null,
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [],
+  "middle_name": null,
+  "mobile_no": "1234567890",
+  "modified": "2025-03-25 14:09:27.097445",
+  "name": "cotact",
+  "phone": "1234567890",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 1,
+    "parent": "cotact",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "1234567890"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": null,
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "pooja.sarvadhi@gmail.com"
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "pooja.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "pooja.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "pooja ratnani-Palmer Productions Ltd.",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "pooja",
+  "full_name": "pooja ratnani",
+  "gender": null,
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [
+   {
+    "link_doctype": "Customer",
+    "link_name": "Palmer Productions Ltd.",
+    "link_title": "Palmer Productions Ltd.",
+    "parent": "pooja ratnani-Palmer Productions Ltd.",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   }
+  ],
+  "middle_name": "ratnani",
+  "mobile_no": "1234567890",
+  "modified": "2025-03-24 11:53:11.834527",
+  "name": "pooja ratnani-Palmer Productions Ltd.",
+  "phone": "1234567890",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 1,
+    "parent": "pooja ratnani-Palmer Productions Ltd.",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "1234567890"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": "Ms",
+  "status": "Open",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "pooja.sarvadhi@gmail.com"
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "shrutipaneliya.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "shrutipaneliya.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "Shruti",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "Shruti",
+  "full_name": "Shruti",
+  "gender": "Female",
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [
+   {
+    "link_doctype": "Lead",
+    "link_name": "CRM-LEAD-2025-00003",
+    "link_title": "Ms Shruti",
+    "parent": "Shruti",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Prospect",
+    "link_name": "sarvadhi",
+    "link_title": "sarvadhi",
+    "parent": "Shruti",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Customer",
+    "link_name": "Ms Shruti",
+    "link_title": "Ms Shruti",
+    "parent": "Shruti",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   }
+  ],
+  "middle_name": null,
+  "mobile_no": "1234567890",
+  "modified": "2025-03-19 12:59:45.562636",
+  "name": "Shruti",
+  "phone": "1234567890",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 1,
+    "parent": "Shruti",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "1234567890"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": "Ms",
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": null
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "pooja.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "pooja.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "Ankush",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "pooja",
+  "full_name": "pooja",
+  "gender": null,
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [
+   {
+    "link_doctype": "Lead",
+    "link_name": "CRM-LEAD-2025-00001",
+    "link_title": "Mr Ankush Ratnani",
+    "parent": "Ankush",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Prospect",
+    "link_name": "prospect",
+    "link_title": "prospect",
+    "parent": "Ankush",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Customer",
+    "link_name": "Mr Ankush Ratnani",
+    "link_title": "Mr Ankush Ratnani",
+    "parent": "Ankush",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   }
+  ],
+  "middle_name": null,
+  "mobile_no": "1234567890",
+  "modified": "2025-03-18 10:46:36.656378",
+  "name": "Ankush",
+  "phone": "",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 0,
+    "parent": "Ankush",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "1234567890"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": "Mr",
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "pooja.sarvadhi@gmail.com"
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "priya.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "priya.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "priya",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "priya",
+  "full_name": "priya",
+  "gender": "Female",
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 0,
+  "is_primary_contact": 0,
+  "last_name": null,
+  "links": [
+   {
+    "link_doctype": "Lead",
+    "link_name": "CRM-LEAD-2025-00002",
+    "link_title": "priya",
+    "parent": "priya",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Prospect",
+    "link_name": "priya",
+    "link_title": "priya",
+    "parent": "priya",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   },
+   {
+    "link_doctype": "Customer",
+    "link_name": "priya",
+    "link_title": "priya",
+    "parent": "priya",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   }
+  ],
+  "middle_name": null,
+  "mobile_no": "1234567890",
+  "modified": "2025-03-18 11:09:41.900236",
+  "name": "priya",
+  "phone": "",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 0,
+    "parent": "priya",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "1234567890"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": null,
+  "status": "Passive",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": null
+ },
+ {
+  "address": null,
+  "company_name": null,
+  "department": null,
+  "designation": null,
+  "docstatus": 0,
+  "doctype": "Contact",
+  "email_id": "pooja.sarvadhi@gmail.com",
+  "email_ids": [
+   {
+    "email_id": "pooja.sarvadhi@gmail.com",
+    "is_primary": 1,
+    "parent": "pooja ratnani-Grant Plastics Ltd.",
+    "parentfield": "email_ids",
+    "parenttype": "Contact"
+   }
+  ],
+  "first_name": "pooja",
+  "full_name": "pooja ratnani",
+  "gender": "Female",
+  "google_contacts": null,
+  "google_contacts_id": null,
+  "image": "",
+  "is_billing_contact": 1,
+  "is_primary_contact": 1,
+  "last_name": null,
+  "links": [
+   {
+    "link_doctype": "Customer",
+    "link_name": "Grant Plastics Ltd.",
+    "link_title": "Grant Plastics Ltd.",
+    "parent": "pooja ratnani-Grant Plastics Ltd.",
+    "parentfield": "links",
+    "parenttype": "Contact"
+   }
+  ],
+  "middle_name": "ratnani",
+  "mobile_no": "8733995668",
+  "modified": "2025-03-18 09:45:34.665003",
+  "name": "pooja ratnani-Grant Plastics Ltd.",
+  "phone": "8733995668",
+  "phone_nos": [
+   {
+    "is_primary_mobile_no": 1,
+    "is_primary_phone": 1,
+    "parent": "pooja ratnani-Grant Plastics Ltd.",
+    "parentfield": "phone_nos",
+    "parenttype": "Contact",
+    "phone": "8733995668"
+   }
+  ],
+  "pulled_from_google_contacts": 0,
+  "salutation": null,
+  "status": "Open",
+  "sync_with_google_contacts": 0,
+  "unsubscribed": 0,
+  "user": "Administrator"
+ }
+]

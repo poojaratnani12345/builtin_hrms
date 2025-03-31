@@ -57,7 +57,6 @@ fixtures = [
     { "dt": "Purchase Receipt" },
     { "dt": "Supplier" },
     { "dt": "Sales Order Item" },
-    { "dt": "Sales Invoice" },
     { "dt": "Delivery Note" },
     { "dt": "Item Reorder" },
     { "dt": "Customer" },
@@ -66,7 +65,24 @@ fixtures = [
     {"dt":'BOM'},
     {"dt":'Purchase Order'},
     {"dt":'BOM Creator'},
-    {"dt":'Item Alternative'}
+    {"dt":'Item Alternative'},
+    {"dt":'Repost Item Valuation'},
+    {"dt":'Item Price'},
+    {"dt":'Comment'},
+    {"dt":"Production Plan"},
+    {"dt":"Sales Invoice"},
+    {"dt":"Purchase Invoice"},
+    {"dt":"Quality Inspection"},
+    {"dt":"Payment Ledger Entry"},
+    {"dt":"Payment Entry"},
+    {"dt":"Shipment"},
+    {"dt":"Delivery Trip"},
+    {"dt":"Contact"},
+    {"dt":"Job Card"},
+    {"dt":"Material Request"},
+    
+    
+    
 
 
 
