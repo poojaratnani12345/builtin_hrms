@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>First Name</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label>Email</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label>Phone number</label>
+    <input type="tel" id="tel" name="tel"><br><br>
+    <label>Resume</label>
+    <input type="file" id="resume" name="resume"><br><br>
+    <button type="submit" onclick="resume()">Submit</button>
+
+</body>
+<script>
+    console.log("script loaded")
+    function resume(){
+        console.log("function call");
+        let formData = new FormData();
+        
+        formData.append('name', document.getElementById('name').value);
+        formData.append('email', document.getElementById('email').value);
+        formData.append('tel', document.getElementById('tel').value);
+        formData.append('resume', document.getElementById('resume').files[0]); // Fix here
+        
+        fetch('/api/method/sarvadhi_custom.custom_api.chatbot_api.extract_resume_data', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Response:", data);
+            if (data.message) {
+                document.getElementById('name').value = data.message.name || '';
+                document.getElementById('email').value = data.message.email || '';
+                document.getElementById('tel').value = data.message.phone || '';
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    }
+    
+
+</script>
+</html>

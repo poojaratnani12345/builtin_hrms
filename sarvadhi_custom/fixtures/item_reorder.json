@@ -1,0 +1,72 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Item Reorder",
+  "material_request_type": "Purchase",
+  "modified": "2025-03-12 15:09:55.342805",
+  "name": "c3d3boj6qi",
+  "parent": "Item-0001",
+  "parentfield": "reorder_levels",
+  "parenttype": "Item",
+  "warehouse": "Stores - S",
+  "warehouse_group": "Stores - S",
+  "warehouse_reorder_level": 900.0,
+  "warehouse_reorder_qty": 100.0
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Reorder",
+  "material_request_type": "Purchase",
+  "modified": "2025-03-28 14:33:46.050247",
+  "name": "rnp3eu5ut1",
+  "parent": "air-conditioner",
+  "parentfield": "reorder_levels",
+  "parenttype": "Item",
+  "warehouse": "Stores - SD",
+  "warehouse_group": "All Warehouses - SD",
+  "warehouse_reorder_level": 900.0,
+  "warehouse_reorder_qty": 100.0
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Reorder",
+  "material_request_type": "Purchase",
+  "modified": "2025-03-24 11:47:20.177174",
+  "name": "cspcvre4he",
+  "parent": "Capacitor",
+  "parentfield": "reorder_levels",
+  "parenttype": "Item",
+  "warehouse": "Stores - SD",
+  "warehouse_group": "All Warehouses - SD",
+  "warehouse_reorder_level": 900.0,
+  "warehouse_reorder_qty": 100.0
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Reorder",
+  "material_request_type": "Purchase",
+  "modified": "2025-03-24 11:48:19.632050",
+  "name": "laku7674ie",
+  "parent": "plastic",
+  "parentfield": "reorder_levels",
+  "parenttype": "Item",
+  "warehouse": "Stores - SD",
+  "warehouse_group": "All Warehouses - SD",
+  "warehouse_reorder_level": 1500.0,
+  "warehouse_reorder_qty": 500.0
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Reorder",
+  "material_request_type": "Purchase",
+  "modified": "2025-03-31 09:59:30.279228",
+  "name": "ctqo99kodj",
+  "parent": "air-conditioner-LIFO",
+  "parentfield": "reorder_levels",
+  "parenttype": "Item",
+  "warehouse": "Stores - SD",
+  "warehouse_group": "All Warehouses - SD",
+  "warehouse_reorder_level": 1800.0,
+  "warehouse_reorder_qty": 200.0
+ }
+]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <label>Site name</label>
+    <input id="name" type="text"><br><br>
+    <label>root password</label>
+    <input id="root" type="password"><br><br>
+    <label>site password</label>
+    <input id="site_pwd" type="password"><br><br>
+    <label>re site password</label>
+    <input id="re_site_pwd" type="password"><br><br>
+
+    <!-- <button onclick="bench_site()">submit</button><br><br>
+
+    <button onclick="bench_migrate()">Bench migrate</button>
+    <button onclick="bench_build()">Bench build</button>
+    <button onclick="bench_clear_cache()">Bench clear-cache</button> -->
+
+
+    <form id="resume_form">
+
+        <label>Doctype</label>
+        <input id="doctype" type="text"><br><br>
+        <label>Docname</label>
+        <input id="docname" type="text"><br><br>
+
+
+
+        <label for="resume">Upload Resume (PDF):</label>
+        <input type="file" id="resume" accept="application/pdf" />
+        <button type="button" onclick="uploadResume()">Upload</button>
+
+    </form>
+
+</body>
+</html>

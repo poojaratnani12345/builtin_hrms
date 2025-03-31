@@ -5,6 +5,75 @@ app_description = "abc"
 app_email = "pooja.sarvadhi@gmail.com"
 app_license = "mit"
 
+
+
+
+doc_events = {
+	"Sales Order":{
+        "on_submit":"sarvadhi_custom.custom_api.task_work_order.work_order"
+    },
+    "Stock Entry":{
+        # "validate":"sarvadhi_custom.custom_api.task_quality.create_quality_inpection_from_stock_entry",
+        "on_submit":"sarvadhi_custom.custom_api.task_stock.stock_LIFO"
+    },
+    # "Work Order":{
+    #     "on_update":"sarvadhi_custom.custom_api.task.quality_inpection_creation"
+    # }
+    "Purchase Receipt":{
+       "validate": "sarvadhi_custom.custom_api.task_quality.create_quality_inpection_from_purchase_receipt"
+    }
+}
+
+scheduler_events = {
+    "cron": {
+        "0 12 1 * *": [
+            "sarvadhi_custom.custom_api.task.stock_reconciliation",
+        ]
+    },
+     "cron": {
+        "0 12 1 * *": [
+            "sarvadhi_custom.custom_api.task_stock.sale",
+        ]
+    },
+    "cron": {
+        "0 12 1 * *": [
+            "sarvadhi_custom.custom_api.task_quality.rejection_rate",
+        ]
+    }
+}
+
+
+fixtures = [
+    { "dt": "Sales Order"   },
+    { "dt": "Work Order" },
+    { "dt": "Item" },
+    { "dt": "Issue" },
+    { "dt": "Quality Inspection" },
+    { "dt": "Batch" },
+    { "dt": "Serial and Batch Bundle" },
+    { "dt": "Stock Reconciliation" },
+    { "dt": "Stock Ledger Entry" },
+    { "dt": "Stock Entry" },
+    { "dt": "Purchase Receipt" },
+    { "dt": "Supplier" },
+    { "dt": "Sales Order Item" },
+    { "dt": "Sales Invoice" },
+    { "dt": "Delivery Note" },
+    { "dt": "Item Reorder" },
+    { "dt": "Customer" },
+    { "dt": "Sales Invoice Item" },
+    {"dt":'Bin'},
+    {"dt":'BOM'},
+    {"dt":'Purchase Order'},
+    {"dt":'BOM Creator'},
+    {"dt":'Item Alternative'}
+
+
+
+
+]
+
+
 # Apps
 # ------------------
 
