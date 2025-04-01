@@ -6539,7 +6539,7 @@
   "shipping_address": "abc-Billing-3",
   "shipping_address_display": "surat<br>\nsyurat<br>\n12345<br>India<br>\n<br>\nPhone: 1234567890<br>Email: pooja@gmail.com<br>",
   "shipping_rule": null,
-  "status": "Unpaid",
+  "status": "Overdue",
   "subscription": null,
   "supplied_items": [],
   "supplier": "Shruti galaxy Pvt Ltd.",

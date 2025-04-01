@@ -80,7 +80,10 @@ fixtures = [
     {"dt":"Contact"},
     {"dt":"Job Card"},
     {"dt":"Material Request"},
-    {"dt":"Stock Settings"}
+    {"dt":"Stock Settings"},
+    {"dt":"Item Variant Settings"},
+    {"dt":"UOM Conversion Factor"},
+    {"dt" :"UOM"},
 
     
     
