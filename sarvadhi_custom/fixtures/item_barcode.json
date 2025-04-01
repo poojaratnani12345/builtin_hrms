@@ -1,0 +1,15 @@
+[
+ {
+  "barcode": "1234567890",
+  "barcode_type": "CODE-39",
+  "custom_barcode": "<svg height=\"88px\" width=\"100%\" x=\"0px\" y=\"0px\" viewBox=\"0 0 290 88\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" style=\"transform: translate(0,0)\" data-barcode-value=\"1234567890\"><rect x=\"0\" y=\"0\" width=\"290\" height=\"88\" style=\"fill:#ffffff;\"></rect><g transform=\"translate(10, 10)\" style=\"fill:#000000;\"><rect x=\"0\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"9\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"18\" y=\"0\" width=\"9\" height=\"50\"></rect><rect x=\"33\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"39\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"51\" y=\"0\" width=\"9\" height=\"50\"></rect><rect x=\"66\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"78\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"84\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"99\" y=\"0\" width=\"9\" height=\"50\"></rect><rect x=\"117\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"123\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"132\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"150\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"156\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"165\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"174\" y=\"0\" width=\"12\" height=\"50\"></rect><rect x=\"189\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"198\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"207\" y=\"0\" width=\"12\" height=\"50\"></rect><rect x=\"225\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"231\" y=\"0\" width=\"6\" height=\"50\"></rect><rect x=\"246\" y=\"0\" width=\"9\" height=\"50\"></rect><rect x=\"258\" y=\"0\" width=\"3\" height=\"50\"></rect><rect x=\"264\" y=\"0\" width=\"6\" height=\"50\"></rect><text style=\"font: 16px monospace\" text-anchor=\"middle\" x=\"135\" y=\"68\">1234567890</text></g></svg>",
+  "docstatus": 0,
+  "doctype": "Item Barcode",
+  "modified": "2025-03-13 11:42:21.993338",
+  "name": "c5lk09d2id",
+  "parent": "Ear Buds",
+  "parentfield": "barcodes",
+  "parenttype": "Item",
+  "uom": "Nos"
+ }
+]
