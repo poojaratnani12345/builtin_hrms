@@ -84,6 +84,7 @@ fixtures = [
     {"dt":"Item Variant Settings"},
     {"dt":"UOM Conversion Factor"},
     {"dt" :"UOM"},
+    {"dt":"Item Attribute"}
 
     
     
